@@ -29,7 +29,7 @@ async function callGemma4(prompt: string): Promise<string> {
       'X-Title': 'BreakFree',
     }),
     body: JSON.stringify({
-      model: 'google/gemma-4-31b:free', // Google: Gemma 4 31B (free) on OpenRouter
+      model: 'google/gemma-3-12b-it', // Matches working python script
       messages: [{ role: 'user', content: prompt }],
     }),
   });
