@@ -167,7 +167,7 @@ export default async function DashboardPage() {
         }}>
           ➕ Add a New Habit
         </h3>
-        <form action={createHabitAction} style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}>
+        <form action={createHabitAction as any} style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}>
           <div>
             <label className="form-label" htmlFor="habit-name">Habit Name</label>
             <input
