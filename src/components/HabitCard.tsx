@@ -166,7 +166,7 @@ export function HabitCard({ habit, streak, completionRate, todayStatus }: HabitC
             disabled={isLoading || currentStatus === 'completed'}
             style={{
               flex: 1, padding: '0.55rem 0.5rem', borderRadius: '8px',
-              border: 'none', cursor: isLoading || currentStatus === 'completed' ? 'default' : 'pointer',
+              cursor: isLoading || currentStatus === 'completed' ? 'default' : 'pointer',
               background: currentStatus === 'completed'
                 ? 'rgba(16,185,129,0.2)' : 'rgba(16,185,129,0.08)',
               color: '#6ee7b7',
@@ -182,7 +182,7 @@ export function HabitCard({ habit, streak, completionRate, todayStatus }: HabitC
             disabled={isLoading || currentStatus === 'skipped'}
             style={{
               flex: 1, padding: '0.55rem 0.5rem', borderRadius: '8px',
-              border: 'none', cursor: isLoading || currentStatus === 'skipped' ? 'default' : 'pointer',
+              cursor: isLoading || currentStatus === 'skipped' ? 'default' : 'pointer',
               background: currentStatus === 'skipped'
                 ? 'rgba(245,158,11,0.2)' : 'rgba(245,158,11,0.06)',
               color: '#fcd34d',
@@ -198,7 +198,7 @@ export function HabitCard({ habit, streak, completionRate, todayStatus }: HabitC
             disabled={isLoading || currentStatus === 'failed'}
             style={{
               flex: 1, padding: '0.55rem 0.5rem', borderRadius: '8px',
-              border: 'none', cursor: isLoading || currentStatus === 'failed' ? 'default' : 'pointer',
+              cursor: isLoading || currentStatus === 'failed' ? 'default' : 'pointer',
               background: currentStatus === 'failed'
                 ? 'rgba(239,68,68,0.2)' : 'rgba(239,68,68,0.06)',
               color: '#fca5a5',
