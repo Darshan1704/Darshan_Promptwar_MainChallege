@@ -158,7 +158,7 @@ export function HabitCard({ habit, streak, completionRate, todayStatus }: HabitC
           textTransform: 'uppercase', letterSpacing: '0.06em',
           fontWeight: 600, marginBottom: '0.6rem',
         }}>
-          Today's Check-in
+          Today&apos;s Check-in
         </p>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
           <button

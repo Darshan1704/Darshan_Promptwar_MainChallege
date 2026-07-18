@@ -97,7 +97,7 @@ export function AICoachMessage({ habitId }: { habitId: string }) {
             fontSize: '0.87rem', color: 'rgba(240,240,255,0.8)',
             lineHeight: 1.65, fontStyle: 'italic',
           }}>
-            "{message}"
+            &quot;{message}&quot;
           </p>
           <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.75rem' }}>
             <button
