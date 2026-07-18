@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'BreakFree – AI-Powered Habit Breaker',
+  title: 'BreakFree | AI Habit Coach',
   description: 'Break bad habits and addictions with AI-powered personalized coaching, tracking, and intelligent nudges.',
 };
 

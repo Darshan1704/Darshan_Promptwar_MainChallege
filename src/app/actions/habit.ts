@@ -4,6 +4,11 @@ import { createClient } from '@/lib/supabase/server';
 import { habitSchema, habitLogSchema } from '@/core/schemas/habit.schema';
 import { revalidatePath } from 'next/cache';
 
+/**
+ * Creates a new habit for the authenticated user and revalidates the dashboard.
+ * @param {FormData} formData - The form data containing habit name, description, and frequency.
+ * @returns {Promise<{error: string} | {success: boolean}>} Result of the operation.
+ */
 export async function createHabitAction(formData: FormData) {
   const data = Object.fromEntries(formData.entries());
   
