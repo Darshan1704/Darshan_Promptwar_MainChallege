@@ -1,0 +1,21 @@
+import type { Metadata } from 'next';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: 'BreakFree – AI-Powered Habit Breaker',
+  description: 'Break bad habits and addictions with AI-powered personalized coaching, tracking, and intelligent nudges.',
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" data-theme="dark">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}

@@ -1,0 +1,4 @@
+﻿
+src\app\actions\ai.ts:8:const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
+
+
